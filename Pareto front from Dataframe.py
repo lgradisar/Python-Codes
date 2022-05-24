@@ -17,4 +17,4 @@ def is_pareto(dataframe):
                 pareto = False
                 break
         paretoList.append(pareto)
-    return pd.Series(paretoArray)
+    return pd.Series(paretoList)
